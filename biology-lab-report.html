@@ -8,11 +8,11 @@
     h1, h2 { color: #2c3e50; }
     h3 { color: #34495e; }
     table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background-color: #eaeaea; }
+    th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+    th { background-color: #eaeaea; font-weight: bold; }
     .section { margin-bottom: 30px; padding: 15px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    img { max-width: 300px; margin: 10px 0; border-radius: 6px; }
-    nav { background-color: #2c3e50; padding: 10px; margin-bottom: 20px; }
+    .results-image { max-width: 200px; height: auto; border: 1px solid #ddd; border-radius: 6px; padding: 5px; }
+    nav { background-color: #2c3e50; padding: 10px; margin-bottom: 20px; border-radius: 4px; }
     nav a { color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold; }
     nav a:hover { text-decoration: underline; }
   </style>
@@ -25,59 +25,156 @@
   <p><strong>Group:</strong> 215</p>
 
   <nav>
+    <a href="#students">Students</a>
     <a href="#intro">Introduction</a>
+    <a href="#hypothesis">Hypothesis</a>
+    <a href="#objective">Objective</a>
     <a href="#materials">Materials</a>
+    <a href="#methods">Methods</a>
     <a href="#results">Results</a>
     <a href="#discussion">Discussion</a>
     <a href="#conclusion">Conclusion</a>
+    <a href="#references">References</a>
   </nav>
+
+  <div id="students" class="section">
+    <h2>Students</h2>
+    <table>
+      <tr><th>Name</th><th>ID</th><th>Work at</th></tr>
+      <tr><td>Barbosa Martinez Leonardo</td><td>2278884</td><td>The objective</td></tr>
+      <tr><td>Cantú Hernández Isabella Marian</td><td>2279447</td><td>The discussion</td></tr>
+      <tr><td>Cortes González Roberto</td><td>2278778</td><td>The methods and the results</td></tr>
+      <tr><td>Granados Nava Jimena</td><td>2279361</td><td>The hypothesis and the introduction</td></tr>
+      <tr><td>García Salinas Eugenio</td><td>2279517</td><td>The conclusion</td></tr>
+      <tr><td>Martinez de la Peña Maryjose</td><td>2279170</td><td>The materials and the variables</td></tr>
+    </table>
+  </div>
 
   <div id="intro" class="section">
     <h2>Introduction</h2>
-    <p>A cell is the smallest independently functioning unit of a living organism...</p>
-    <img src="images/cell.png" alt="Animated Cell Diagram" />
+    <p>A cell is the smallest independently functioning unit of a living organism. The human body is composed of different tissues and organs, each with specific functions. This lab practice focuses on observing and distinguishing various biological tissues under the microscope to better understand the structural organization of the human body.</p>
+  </div>
+
+  <div id="hypothesis" class="section">
+    <h2>Hypothesis</h2>
+    <p>If we observe different body systems and tissues under a microscope, then we can better understand how the human body works and the relationship between tissue structure and organ function.</p>
+  </div>
+
+  <div id="objective" class="section">
+    <h2>Objective</h2>
+    <p>The objective of this practice is to identify, distinguish and investigate the differences between various organic tissues and their structural characteristics using optical microscopes.</p>
+    <ul>
+      <li><strong>Controlled Variable:</strong> Microscopes (type and magnification)</li>
+      <li><strong>Independent Variable:</strong> Type of biological sample</li>
+      <li><strong>Dependent Variable:</strong> Microscopic characteristics observed</li>
+    </ul>
   </div>
 
   <div id="materials" class="section">
     <h2>Materials</h2>
     <ul>
-      <li>Microscopes</li>
+      <li>Optical Microscopes</li>
+      <li>Sample of bone marrow</li>
+      <li>Sample of bone</li>
+      <li>Sample of brain (cerebrum)</li>
+      <li>Sample of epididymis</li>
+      <li>Sample of sperm (spermatozoids)</li>
       <li>Sample of kidney</li>
       <li>Sample of liver</li>
-      <li>Sample of brain</li>
-      <li>Sample of muscle</li>
-      <li>Sample of intestine</li>
+      <li>Sample of small intestine</li>
+      <li>Sample of smooth muscle</li>
+      <li>Sample of cardiac muscle</li>
+      <li>Sample of skeletal muscle</li>
+      <li>Sample of epithelial cells and lymphocytes</li>
+      <li>Prepared histological slides</li>
+      <li>Camera or imaging device</li>
     </ul>
-    <img src="images/microscope.png" alt="Microscope Illustration" />
+  </div>
+
+  <div id="methods" class="section">
+    <h2>Methods</h2>
+    <p>We used optical microscopes with 12 prepared histological slides containing different tissue samples. Each slide was examined under the microscope, and detailed observations were recorded. The samples were analyzed at different magnification levels (typically 100x and 400x), and digital images were captured for documentation and analysis.</p>
   </div>
 
   <div id="results" class="section">
     <h2>Results</h2>
     <table>
-      <tr><th>Name</th><th>Description</th><th>Image</th></tr>
-      <tr><td>Kidney</td><td>Pink with small spaces</td><td><img src="images/kidney.png" alt="Kidney Tissue" /></td></tr>
-      <tr><td>Liver</td><td>White and pink areas</td><td><img src="images/liver.png" alt="Liver Tissue" /></td></tr>
-      <tr><td>Small Intestine</td><td>Bubbly aspect</td><td><img src="images/intestine.png" alt="Intestine Tissue" /></td></tr>
-      <tr><td>Epididymis</td><td>Light blue with soft structures</td><td><img src="images/epididymis.png" alt="Epididymis Tissue" /></td></tr>
-      <tr><td>Spermatozoids</td><td>Background white with black points</td><td><img src="images/sperm.png" alt="Spermatozoids" /></td></tr>
-      <tr><td>Cerebrum</td><td>Smooth pink with white lines</td><td><img src="images/brain.png" alt="Brain Tissue" /></td></tr>
-      <tr><td>Bone marrow</td><td>Rough brown and white blocks</td><td><img src="images/bone_marrow.png" alt="Bone Marrow" /></td></tr>
-      <tr><td>Smooth muscle</td><td>Looks like meat, pink and white</td><td><img src="images/smooth_muscle.png" alt="Smooth Muscle" /></td></tr>
-      <tr><td>Cardiac muscle</td><td>Smooth big white strands and pink</td><td><img src="images/cardiac_muscle.png" alt="Cardiac Muscle" /></td></tr>
-      <tr><td>Skeletal muscle</td><td>Pink with white patterns</td><td><img src="images/skeletal_muscle.png" alt="Skeletal Muscle" /></td></tr>
-      <tr><td>Lymphocytes</td><td>Black with red dots, yellow-blue areas</td><td><img src="images/lymphocytes.png" alt="Lymphocytes" /></td></tr>
+      <tr>
+        <th>Sample Name</th>
+        <th>Microscopy Image</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Kidney</td>
+        <td><img src="images/kidney.jpg" alt="Kidney tissue under microscope" class="results-image"></td>
+        <td>Kinda pink with small spaces in white and dense</td>
+      </tr>
+      <tr>
+        <td>Liver</td>
+        <td><img src="images/liver.jpg" alt="Liver tissue under microscope" class="results-image"></td>
+        <td>White and some parts pink</td>
+      </tr>
+      <tr>
+        <td>Small Intestine</td>
+        <td><img src="images/small-intestine.jpg" alt="Small intestine tissue under microscope" class="results-image"></td>
+        <td>Bubbly aspect also pink and white</td>
+      </tr>
+      <tr>
+        <td>Epididymis</td>
+        <td><img src="images/epididymis.jpg" alt="Epididymis tissue under microscope" class="results-image"></td>
+        <td>Light blue with soft structures</td>
+      </tr>
+      <tr>
+        <td>Spermatozoids</td>
+        <td><img src="images/spermatozoids.jpg" alt="Spermatozoids under microscope" class="results-image"></td>
+        <td>Background white with black points</td>
+      </tr>
+      <tr>
+        <td>Cerebrum</td>
+        <td><img src="images/cerebrum.jpg" alt="Cerebrum tissue under microscope" class="results-image"></td>
+        <td>Smooth pink with white lines</td>
+      </tr>
+      <tr>
+        <td>Bone Marrow</td>
+        <td><img src="images/bone-marrow.jpg" alt="Bone marrow tissue under microscope" class="results-image"></td>
+        <td>Rough brown and white blocks</td>
+      </tr>
+      <tr>
+        <td>Smooth Muscle</td>
+        <td><img src="images/smooth-muscle.jpg" alt="Smooth muscle tissue under microscope" class="results-image"></td>
+        <td>Looks like meat, pink and white</td>
+      </tr>
+      <tr>
+        <td>Cardiac Muscle</td>
+        <td><img src="images/cardiac-muscle.jpg" alt="Cardiac muscle tissue under microscope" class="results-image"></td>
+        <td>Smooth big white strands and pink</td>
+      </tr>
+      <tr>
+        <td>Skeletal Muscle</td>
+        <td><img src="images/skeletal-muscle.jpg" alt="Skeletal muscle tissue under microscope" class="results-image"></td>
+        <td>Pink with white patterns</td>
+      </tr>
+      <tr>
+        <td>Lymphocytes</td>
+        <td><img src="images/lymphocytes.jpg" alt="Lymphocytes under microscope" class="results-image"></td>
+        <td>Black with red dots, yellow-blue areas</td>
+      </tr>
     </table>
   </div>
 
   <div id="discussion" class="section">
     <h2>Discussion</h2>
-    <p>Different biological samples and tissues were observed under the microscope...</p>
-    <img src="images/muscle.png" alt="Muscle Tissue Illustration" />
+    <p>Different biological samples and tissues were observed under the microscope at various magnification levels. The observations revealed distinct morphological characteristics for each tissue type, which directly correlate with their specific functions in the human body. The structural differences observed support our hypothesis that understanding tissue organization helps us comprehend how the human body functions.</p>
   </div>
 
   <div id="conclusion" class="section">
     <h2>Conclusion</h2>
-    <p>This practice improved understanding of the organization and function of the human body...</p>
+    <p>This practice significantly improved our understanding of the organization and function of the human body. Through microscopic observation, we were able to relate tissue structure with organ function, demonstrating that each tissue type has unique characteristics adapted to its specific role in maintaining homeostasis and supporting overall body function.</p>
+  </div>
+
+  <div id="references" class="section">
+    <h2>References</h2>
+    <p>Lumen. (n.d.). Structural Organization of the Human Body | Anatomy. Retrieved from <a href="https://courses.lumenlearning.com/suny-dutchess-anatomy-physiology/chapter/structural-organization-of-the-human-body/" target="_blank">courses.lumenlearning.com</a></p>
   </div>
 </body>
 </html>
